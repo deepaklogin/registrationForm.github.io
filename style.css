@@ -1,0 +1,39 @@
+body
+{
+	background-image: url('2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+#form
+{
+	margin-top: 70px;
+}
+input[type=text],input[type=password]
+{
+	width: 300px;
+	border-radius: 10px;
+	border: none;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	//background: transparent;
+	opacity: .8;
+	outline: none;
+}
+label
+{
+	color: #ff1073;
+	font-size: 20px;
+}
+input[type=text]:hover,input[type=password]:hover
+{
+	width: 350px;
+}
+input[type=submit],input[type=reset]
+{
+	padding: 5px 10px;
+	border-radius: 10px 0 10px 0;
+	cursor: pointer;
+	outline: none;
+}
